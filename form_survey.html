@@ -5,15 +5,69 @@
         </title>
     </head>
     <body>
-<table>
-            <h2> Market Research Survey</h2><br>
-            Please take a few moments to complete this satisfaction survey.
-<tr><th>What is your age range?</th></tr>
-<tr><select><option value="18-24">18-24</option>
+            <h2> Market Research Survey</h2>
+            <h5>Please take a few moments to complete this satisfaction survey.</h5>
+    <div class="form-group">
+        <h4><p id="quest">What is your age range?</p></h4>
+    </div>
+    <select><option value="18-24">18-24</option>
             <option value="25-34">25-34</option>
             <option value="35-50">35-50</option>
-   <option value="50+">50+</option></select></tr>
+            <option value="50+">50+</option></select>
+   <div class="form-group">
+    <h4><p id="quest">What is your yearly income range?</p></h4>
+<select><option value="$0-$25,000">$0-$25,000</option>
+        <option value="$25,000-50,000">$25,000-50,000</option>
+        <option value="$50,000-$100,000">$50,000-$100,00</option>
+<option value="$100,000+">$100,000+</option> </select>
+</div>
 
-</table>
+<div class="form-group">
+    <h4><p id="quest">Gender Identity</p></h4>
+    <input type="radio" name="gender" value="male" checked>Male<br>
+    <input type="radio" name="gender" value="female" checked>Female<br>
+    <input type="radio" name="gender" value="Nonbinary" checked>Nonbinary<br>
+    <tp><input type="radio" name="gender" value="Other" checked> Other </tp><br>
+    <tp><input typr="text"></tp><br>
+    <font<h6><p i="quest"><i>Maximum of 250 characters.    Currently Used: 0 characters.</i></p></h6>
+</div>
+<div class="form-group">
+    <h4><p id="quest">Which of the following products have your purchased in the last 2 months. Please check all that apply.</p></h4>
+    <input type="checkbox" name="products" value="product1">Product1<br>
+    <input type="checkbox" name="products" value="product2">Product2<br>
+    <input type="checkbox" name="products" value="product3">Product3
+</div>
+<div class="form-group">
+    <h4><p id="quest">How often would you use our new product?</p></h4>
+    <input type="radio" name="gender" value="Daily" checked>Daily<br>
+    <input type="radio" name="gender" value="Weekly" checked>Weekly<br>
+    <input type="radio" name="gender" value="Monthly" checked>Monthly<br>
+    </div>
+    <div class="form-group">
+        <tr></tr><h4><p id="quest">What would you pay for the new product?</p></h4>
+        <label for="$">$<input type="text" size="7"></label><label for=".">.<input type="text" size="1"></label>
+        <h6>Dollar Cent</h6>
+    </div>
+    <div class="form-group">
+        <h4><p id="quest">What features would you like to see in the new product.</p></h4>
+        <textarea cols="30" rows="10">
+        </textarea>
+        <div class="form-group">
+            <h4><p id="quest">Please rate your level of agreement with the following statements.</p></h4>
+        </div>
+        <table>
+            <tr>
+                
+                <td>Strongly Disagree</td>
+                <td>Disagree</td>
+                <td>Agree</td>
+                <td>Strongly Agree</td>
+            </tr>
+            <tr>
+              <th>Our products are priced fairly.</th><br>
+              <th>Our products are high fairly.</th><br>
+              <th>You would recomnend our product to a friend or coworker.</th>
+            </tr>
+        </table>
     </body>
 </html
